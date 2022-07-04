@@ -1,0 +1,126 @@
+/*форма регистрации  */
+.registration-header
+    min-height: 148px
+    background-color: #F8F3F4
+
+.registration
+    background-color: #E5E5E5
+
+.registration-box
+    display: flex
+    justify-content: space-between
+    width: 100%
+    padding-top: 65px
+    padding-bottom: 96px
+
+.registration-box-anketa
+    width: 48%
+
+.input-name
+    box-sizing: border-box
+    max-width: 350px
+    min-height: 45px
+    margin-top: 20px
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 13px
+    line-height: 16px
+    color: #B1B1B1
+    padding-left: 17px
+
+.text-registration-form
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 13px
+    line-height: 16px
+    color: #B1B1B1
+    margin-bottom: 39px
+    max-width: 359px
+    min-height: 32px
+
+.login-details
+    margin-top: 33px
+    margin-bottom: 16px
+
+.check-box
+    max-width: 132px
+    min-height: 17px
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 11px
+    line-height: 13px
+    color: #000000
+    margin-top: 31px
+    display: flex
+    justify-content: space-between
+
+.radio:hover
+    border: 1px solid $color-main
+    max-width: 20px
+    height: 20px
+
+.radio
+    max-width: 17px
+    min-height: 17px
+    padding-right: 10px
+
+.loyaity-box
+    width: 48%
+
+.paragraf-registration
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 24px
+    line-height: 29px
+    color: #000000
+    max-width: 652px
+    min-height: 58px
+    margin-top: 22px
+    margin-bottom: 21px
+
+.loyality-bonus
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 24px
+    line-height: 29px
+    color: #000000
+    list-style: none
+
+.loyality-bonus-li::before
+    content: '✓ '
+
+.loyality-bonus-li
+    padding-bottom: 16px
+
+.submit-registration-form
+    padding: 3%
+
+    @extend .latonormal400
+    font-size: 14px
+    line-height: 17px
+
+    &:hover
+        background-color: $color-main
+        color: #FFFFFF
+
+@media (max-width: 570px)
+    .registration-box
+        flex-direction: column
+        justify-content: center
+
+    .registration-box-anketa
+        width: 100%
+        margin-bottom: 40px
+
+    .loyaity-box
+        width: 100%
+
+    .h2
+        display: flex
+        justify-content: center
+        align-items: center

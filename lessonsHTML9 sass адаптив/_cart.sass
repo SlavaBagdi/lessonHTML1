@@ -1,0 +1,191 @@
+
+.cart-box
+    margin-top: 98px
+    margin-bottom: 128px
+    display: flex
+    justify-content: space-between
+
+.cart-product-box
+    width: 57%
+
+.item-cart-product-box
+    display: flex
+    margin-bottom: 40px
+    box-shadow: 4px 7px 10px #E5E5E5
+
+.pic-cart-product-box
+    max-width: 362px
+
+.cart-box-heading-discr
+    padding-left: 31px
+    padding-top: 22px
+    max-width: 390px
+
+.text-quantity
+    max-width: 50px
+    min-height: 24px
+    padding-left: 2%
+
+.item-cart-button
+    display: flex
+    justify-content: space-between
+    width: 100%
+
+.shopping-cart-button
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 14px
+    line-height: 17px
+    color: #000000
+    max-width: 234px
+    min-height: 49px
+    padding: 3%
+    border: none
+
+    &:hover
+        background-color: $color-main
+        color: #FFFFFF
+
+.input-name
+    width: 100%
+
+.shipping-cart-button
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 11px
+    line-height: 13px
+    color: #4A4A4A
+    max-width: 100px
+    min-height: 34px
+    margin-top: 24px
+    margin-bottom: 58px
+    padding: 3%
+    border: none
+    &:hover
+        background-color: $color-main
+        color: #FFFFFF
+
+.form-shiping-price
+    width: 32%
+    display: flex
+    flex-direction: column
+
+.cart-total-price
+    height: 214px
+    background-color: #F5F3F3
+    justify-content: center
+
+.hr-cart-total-price
+    max-width: 275px
+    background: #E2E2E2
+    margin-left: 43px
+    margin-bottom: 17px
+
+.total-price-cart-button-box
+
+    display: flex
+    justify-content: center
+
+.total-price-cart-button
+    max-width: 273px
+    min-height: 50px
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 16px
+    line-height: 19px
+    color: #000000
+    padding: 3%
+
+    &:hover
+        background-color: $color-main
+        color: #FFFFFF
+
+.total
+    text-align: end
+    padding-right: 34px
+    padding-top: 39px
+
+@media (max-width: 1140px)
+    .cart-box
+        flex-wrap: wrap
+        margin-bottom: 0px
+        width: 100%
+
+    .cart-product-box
+        width: 100%
+
+    .item-cart-product-box
+        display: flex
+        justify-content: start
+        width: 100%
+
+    .form-shiping-price
+        width: 100%
+        flex-direction: row
+        margin-top: 65px
+        margin-bottom: 128px
+        justify-content: space-between
+
+    .shopping-cart-button
+        margin-right: 10px
+
+    .shipping
+        width: 48%
+
+    .cart-total-price
+        width: 48%
+        margin-top: 45px
+
+@media (max-width: 570px)
+    .cart-product-box
+        width: 100%
+
+    .pic-cart-product-box
+        max-width: 144px
+        .foto-png
+            width: 100%
+
+    .cart-box-heading-discr
+        padding-left: 31px
+        padding-top: 22px
+        max-width: 188px
+
+    .form-shiping-price
+        width: 100%
+        flex-direction: column
+        margin-top: 65px
+
+    .shipping
+        width: 100%
+
+    .cart-total-price
+        width: 100%
+        margin-top: 34px
+
+    .shopping-cart-button
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 12px
+        line-height: 14px
+        text-align: center
+        color: #575757
+
+    .shipping-cart-button
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 11px
+        line-height: 13px
+        color: #575757
+
+    .total-price-cart-button
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        color: #000000
